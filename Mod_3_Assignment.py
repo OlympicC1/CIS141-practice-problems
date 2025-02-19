@@ -1,3 +1,4 @@
+
 # 1. Prompt the user for a word. Then, prompt the user for how many times they'd like that word repeated. Use the skills you learned in this module to print the word the correct number of times.
 
 #Prompt user for a word   (Golden Nugget)
@@ -7,7 +8,6 @@ word = input("Enter a word: ")
 times = int(input("How many times should it be repeated? "))
 for _ in range(times):
     print(word) #Worked=7
-
 
 #2. Prompt the user for their name and their age. Calculate their age next year. Use string concatenation to print "Hello, <name>! You are <age1> years old. Next year, you will be <age2> years old."
 
@@ -23,15 +23,14 @@ age_next_year = age + 1
 #Print using string concatenation(worked)
 print("Hello, " + name + "! You are " + str(age) + " years old. Next year, you will be " + str(age_next_year) + "years old.")
 
-
 #3. Prompt the user for a sentence and a word to try to find in that sentence. Have the program print out whether the word was found in the sentence. (i.e. True or False)
 
 
 #Prompt the user for a sentence
-sentence = input ("It was nice to meet you Bishop and Tempes!!!")    #"It was nice to meet you Bishop and Tempes!"
+sentence = input("Enter a sentence: ")
 
 #Prompt the user for a word to search for
-word = input("nice")
+word = input("Enter a word to search for: ")
 
 #Check if the word is in the sentence
 found = word in sentence
@@ -55,7 +54,6 @@ sliced_word = word[first_index:last_index]
 
 #print (odn)
 print("Sliced word:", sliced_word)
-
 
 #5. Print 3 words with a | character (called a pipe) in between them. Use the appropriate keyword argument in print() to do so.
 print("sky", "stars", "moon", sep="|")
