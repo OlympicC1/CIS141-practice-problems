@@ -61,7 +61,7 @@ def print_multiplication_table():
 # call function display multiplication table
 print_multiplication_table()
 
-'''
+
 #5. Write a program that continuously asks the user to input a number. If the user enters 0, immediately stop asking for more numbers. Otherwise, print the number they entered. Sample interaction:
 
 #Enter a number (0 to stop): 4
@@ -81,6 +81,6 @@ while True:
         print("Exiting...")
 
         break #to leave loop
-
+'''
     print(f"You entered {number}")
 
