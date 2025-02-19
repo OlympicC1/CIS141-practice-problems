@@ -1,3 +1,3 @@
 # My first Hello World program
-print("hello,Crystal!")
-print("hello to everyone in CIS141!")
+print("Hello Crystal!")
+print("Thank you for being great!")
