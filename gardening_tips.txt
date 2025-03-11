@@ -1,0 +1,4 @@
+gardening_tips.txt
+Water your plants early in the morning.
+Use compost to enrich your soil.
+Regularly remove weeds to prevent them from taking over your garden.

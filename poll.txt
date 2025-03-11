@@ -1,0 +1,3 @@
+poll.txt
+
+yea,nay,yea,yea,nay,yea,nay,yea,nay,yea
