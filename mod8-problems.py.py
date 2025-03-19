@@ -11,7 +11,7 @@ with open("gardening_tips.txt", "r") as file:
     for tip in tips:
         print(tip.strip())
 
-'''
+
 
 
 #2. Write a Python program that allows users to log their hiking trips. The program should:
@@ -33,7 +33,7 @@ with open("hiking_log.txt", "r") as file:
     print(contents)
 
 
-'''
+
 
 #3. Create a text file called song_lyrics.txt and copy the lyrics of a song into it. Write a Python program that:
     - Reads the file
@@ -65,7 +65,7 @@ if __name__ == "__main__":
     count_word_frequency()
 
 
-'''
+
 
 
 #4. Create a poll.txt file that contains a list of "yea" or "nay" votes separated by commas.
